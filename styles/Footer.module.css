@@ -1,0 +1,20 @@
+.footer {
+    width: 101%;
+    height: 70px;
+    border-top: 5px solid #0b0e11;
+    background-color: #0b0e11;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.footer img {
+    margin-left: 0.5rem;
+}
+  
+.footer a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
