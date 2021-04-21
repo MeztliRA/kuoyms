@@ -21,6 +21,7 @@ export default function Country() {
 
         <ul className={styles.list}>
             <li><Link href="/country/indonesia"> 🇮🇩 Indonesia</Link></li>
+            <br/>
             <li><Link href="/country/united-kingdom"> 🇬🇧 United Kingdom</Link></li>
         </ul>
         </main>

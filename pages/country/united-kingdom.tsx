@@ -1,6 +1,6 @@
 import CountryInfo from "../../components/CountryInfo";
 
-export default function united-kingdom() {
+export default function unitedKingdom() {
     return (
         <CountryInfo 
             name="United Kingdom"
