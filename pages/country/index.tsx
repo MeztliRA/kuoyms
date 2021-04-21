@@ -24,6 +24,8 @@ export default function Country() {
             <br/>
             <li><Link href="/country/canada"> 🇨🇦 Canada</Link></li>
             <br/>
+            <li><Link href="/country/finland"> 🇫🇮 Finland</Link></li>
+            <br/>
             <li><Link href="/country/indonesia"> 🇮🇩 Indonesia</Link></li>
             <br/>
             <li><Link href="/country/morocco"> 🇲🇦 Morocco</Link></li>
