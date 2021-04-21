@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
 import Footer from "../../components/Footer";
+import Twemoji from "react-twemoji";
 import styles from "../../styles/CountryInfo.module.css";
 
 export default function Country() {
@@ -20,6 +21,7 @@ export default function Country() {
         </p>
 
         <ul className={styles.list}>
+          <Twemoji>
             <li><Link href="/country/brazil"> 🇧🇷 Brazil</Link></li>            
             <br/>
             <li><Link href="/country/canada"> 🇨🇦 Canada</Link></li>
@@ -31,6 +33,7 @@ export default function Country() {
             <li><Link href="/country/morocco"> 🇲🇦 Morocco</Link></li>
             <br/>
             <li><Link href="/country/united-kingdom"> 🇬🇧 United Kingdom</Link></li>
+          </Twemoji>
         </ul>
         </main>
 
