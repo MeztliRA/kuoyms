@@ -20,6 +20,8 @@ export default function Country() {
         </p>
 
         <ul className={styles.list}>
+            <li><Link href="/country/brazil"> 🇧🇷 Brazil</Link></li>            
+            <br/>
             <li><Link href="/country/canada"> 🇨🇦 Canada</Link></li>
             <br/>
             <li><Link href="/country/indonesia"> 🇮🇩 Indonesia</Link></li>
