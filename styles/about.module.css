@@ -36,3 +36,24 @@
     line-height: 1.15;
     font-size: 4rem;
 }
+
+.flex {
+    display: flex;
+}
+
+.attribution a {
+    color: #0070f3;
+    text-decoration: none;
+}
+  
+.attribution a:hover,
+.attribution a:focus,
+.attribution a:active {
+    text-decoration: underline;
+}
+  
+.attribution {
+    margin: 0;
+    line-height: 1.15;
+    font-size: 3rem;
+}

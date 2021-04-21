@@ -15,6 +15,14 @@ export default function about() {
                 </h1>
 
                 <p>Kuoyms is a website to check for information of country around the world</p>
+                
+                <h4 className={styles.attribution}>
+                Attribution
+                </h4>
+
+                <div className={styles.flex}>
+                    <p>The emoji that this website use is from <a href="https://twemoji.twitter.com">twemoji</a></p>
+                </div>
             </main>
 
             <Footer/>
