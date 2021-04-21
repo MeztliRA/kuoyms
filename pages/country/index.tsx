@@ -22,6 +22,8 @@ export default function Country() {
 
         <ul className={styles.list}>
           <Twemoji>
+            <li><Link href="/country/argentina"> 🇦🇷 Argentina</Link></li>            
+            <br/>
             <li><Link href="/country/brazil"> 🇧🇷 Brazil</Link></li>            
             <br/>
             <li><Link href="/country/canada"> 🇨🇦 Canada</Link></li>
