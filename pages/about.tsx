@@ -1,13 +1,11 @@
-import Head from "next/head";
 import Footer from "../components/Footer";
+import Title from "../components/Title";
 import styles from "../styles/about.module.css";
 
 export default function about() {
     return (
         <div className={styles.container}>
-            <Head>
-                <title>About</title>
-            </Head>
+            <Title title="About"/>
 
             <main className={styles.main}>
                 <h1 className={styles.title}>

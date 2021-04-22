@@ -1,15 +1,13 @@
-import Head from "next/head";
 import Link from "next/link";
 import Footer from "../../components/Footer";
+import Title from "../../components/Title";
 import Twemoji from "react-twemoji";
 import styles from "../../styles/CountryInfo.module.css";
 
 export default function Country() {
     return (
         <div className={styles.container}>
-        <Head>
-            <title>Country</title>
-        </Head>
+          <Title title="Country"/>
 
         <main className={styles.main}>
           <h1 className={styles.title}>
