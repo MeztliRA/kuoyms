@@ -8,6 +8,7 @@ export default function brazil() {
             continent="South America"
             population="210,147,125 million"
             currency="Brazilian real"
+            capital="Brasilia"
         />
     )
 }

@@ -8,6 +8,7 @@ export default function finland() {
             continent="Europe"
             population="5,536,146 million"
             currency="Euro"
+            capital="Helsinki"
         />
     )
 }

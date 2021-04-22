@@ -8,6 +8,7 @@ export default function argentina() {
             continent="South America"
             population="44,938,712 million"
             currency="Argentine peso"
+            capital="Buenos Aires"
         />
     )
 }
