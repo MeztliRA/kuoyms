@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Footer from "./Footer";
+import Title from "./Title";
 import { useMediaQuery } from "react-responsive";
 import styles from "../styles/CountryInfo.module.css";
 
@@ -19,9 +20,10 @@ export default function CountryInfo(props:Props) {
         <>
             <div className={styles.container}>
             <Head>
-                <title>{props.name}</title>
                 <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
             </Head>
+
+            <Title title={props.name}/>
 
             <main className={styles.main}>
                 <h1 className={styles.title}>
@@ -47,9 +49,10 @@ export default function CountryInfo(props:Props) {
         <>
             <div className={styles.container}>
             <Head>
-                <title>{props.name}</title>
                 <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
             </Head>
+
+            <Title title={props.name}/>
 
             <main className={styles.main}>
                 <h1 className={styles.title}>
