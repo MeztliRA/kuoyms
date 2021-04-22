@@ -12,6 +12,10 @@ export default function Footer() {
             &nbsp;
             &nbsp;
             &nbsp;
+            <a href="https://github.com/MeztliRA/kuoyms">Github</a>
+            &nbsp;
+            &nbsp;
+            &nbsp;
             <Link href="/about">About</Link>
         </footer>
     )
