@@ -50,6 +50,7 @@
     margin: 0;
     line-height: 1.15;
     font-size: 4rem;
+    text-align: center;
 }
 
 .card {
@@ -84,6 +85,26 @@
 }
 
 .info {
+    display: flex;
+}
+
+#outer {
+    position: relative;
+}
+  
+#inner {
+    position: absolute;
+    top: 50%;
+    height: 100px;
+    margin-top: -50px;
+}
+  
+#outer {
+    height: 10em;
+}
+  
+#inner {
+    width: 100%;
     display: flex;
 }
 
