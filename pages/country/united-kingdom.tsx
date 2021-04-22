@@ -8,6 +8,7 @@ export default function unitedKingdom() {
             continent="Europe"
             population="63,182,178 million"
             currency="Poundsterling"
+            capital="London"
         />
     )
 }

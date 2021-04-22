@@ -9,6 +9,7 @@ interface Props {
     language: string,
     population: string,
     currency: string,
+    capital: string,
 }
 
 export default function CountryInfo(props:Props) {
@@ -30,6 +31,7 @@ export default function CountryInfo(props:Props) {
                 </h1>
                 <div id="outer">
                     <div id="inner">
+                    <p className={styles.card}>capital city:<br/><br/>{props.capital}</p>
                     <p className={styles.card}>language:<br/><br/>{props.language}</p>
                     <p className={styles.card}>population:<br/><br/>{props.population}</p>
                     <p className={styles.card}>currency:<br/><br/>{props.currency}</p>
@@ -56,6 +58,7 @@ export default function CountryInfo(props:Props) {
                     <br/>
                 </h1>
                 <div className={styles.info}>
+                    <p className={styles.card}>capital city:<br/><br/>{props.capital}</p>
                     <p className={styles.card}>language:<br/><br/>{props.language}</p>
                     <p className={styles.card}>population:<br/><br/>{props.population}</p>
                     <p className={styles.card}>currency:<br/><br/>{props.currency}</p>

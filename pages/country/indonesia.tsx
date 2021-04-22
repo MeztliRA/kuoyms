@@ -8,6 +8,7 @@ export default function indonesia() {
             continent="Asia"
             population="270,203,917 million"
             currency="Indonesian rupiah"
+            capital="Jakarta"
         />
     )
 }

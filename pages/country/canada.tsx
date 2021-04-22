@@ -8,6 +8,7 @@ export default function canada() {
             continent="North America"
             population="38,048,738 million"
             currency="Canadian dollar"
+            capital="Ottawa"
         />
     )
 }
