@@ -26,6 +26,10 @@ export default function Home() {
           &nbsp;
           &nbsp;
           &nbsp;
+          <a href="https://github.com/MeztliRA/kuoyms">Github</a>
+          &nbsp;
+          &nbsp;
+          &nbsp;
           <Link href="/about">About</Link>
         </div>
       </main>
