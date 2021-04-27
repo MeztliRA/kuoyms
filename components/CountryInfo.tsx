@@ -60,7 +60,7 @@ export default function CountryInfo(props:Props) {
                     <br/>
                     <br/>
                 </h1>
-                <div className={styles.info}>
+                <div className={styles.flex}>
                     <p className={styles.card}>capital city:<br/><br/>{props.capital}</p>
                     <p className={styles.card}>language:<br/><br/>{props.language}</p>
                     <p className={styles.card}>population:<br/><br/>{props.population}</p>
