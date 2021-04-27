@@ -12,7 +12,7 @@ export default function about() {
                 About
                 </h1>
 
-                <p>Kuoyms is a website to check for information of country around the world</p>
+                <p>Kuoyms is a website where you can check for info of countries around the world</p>
                 
                 <h4 className={styles.attribution}>
                 Attribution
