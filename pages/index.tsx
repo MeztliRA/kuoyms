@@ -18,7 +18,7 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-          A country info website
+          A website to check for info of countries around the world
         </p>
 
         <div className={styles.pages}>
