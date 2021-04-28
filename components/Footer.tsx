@@ -12,7 +12,7 @@ export default function Footer() {
             &nbsp;
             &nbsp;
             &nbsp;
-            <a href="https://github.com/MeztliRA/kuoyms">Github</a>
+            <a href="https://github.com/MeztliRA/kuoyms" target="_blank" rel="noopener noreferrer">Github</a>
             &nbsp;
             &nbsp;
             &nbsp;
