@@ -38,9 +38,8 @@ export function CountryInfo({ country }) {
                     </div>
                 </div>
             </main>
-
-            <Footer/>
             </div>
+            <Footer/>
         </>
     ) : (
         <>
@@ -65,9 +64,8 @@ export function CountryInfo({ country }) {
                     <p className={styles.card}>continent:<br/><br/>{country.continent}</p>
                 </div>
             </main>
-
-            <Footer/>
             </div>
+            <Footer/>
         </>
     )
 }

@@ -6,6 +6,7 @@ import styles from "../../styles/CountryInfo.module.css";
 
 export default function Country() {
     return (
+        <>
         <div className={styles.container}>
           <Title title="Country"/>
 
@@ -40,8 +41,8 @@ export default function Country() {
           </Twemoji>
         </ul>
         </main>
-
-        <Footer/>
         </div>
+        <Footer/>
+        </>
     )
 }

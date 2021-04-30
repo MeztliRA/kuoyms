@@ -6,6 +6,7 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
+    <>
     <div className={styles.container}>
       <Head>
         <title>Kuoyms</title>
@@ -33,8 +34,8 @@ export default function Home() {
           <Link href="/about">About</Link>
         </div>
       </main>
-
-      <Footer/>
     </div>
+    <Footer/>
+    </>
   )
 }

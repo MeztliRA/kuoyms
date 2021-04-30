@@ -16,9 +16,8 @@ export default function page404() {
 
                     <Link href="/">Go back home</Link>        
                 </main>
-
-                <Footer/>
             </div>
+            <Footer/>
         </>
     )
 }

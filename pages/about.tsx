@@ -4,6 +4,7 @@ import styles from "../styles/about.module.css";
 
 export default function about() {
     return (
+        <>
         <div className={styles.container}>
             <Title title="About"/>
 
@@ -22,8 +23,8 @@ export default function about() {
                     <p>The emoji that this website use is from <a href="https://twemoji.twitter.com">twemoji</a></p>
                 </div>
             </main>
-
-            <Footer/>
         </div>
+        <Footer/>
+        </>
     )
 }
