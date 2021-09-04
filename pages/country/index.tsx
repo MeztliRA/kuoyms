@@ -31,6 +31,8 @@ export default function Country() {
             <br/>
             <li><Link href="/country/indonesia"> 🇮🇩 Indonesia</Link></li>
             <br/>
+            <li><Link href="/country/italy"> 🇮🇹 Italy</Link></li>
+            <br/>
             <li><Link href="/country/japan"> 🇯🇵 Japan</Link></li>
             <br/>
             <li><Link href="/country/morocco"> 🇲🇦 Morocco</Link></li>
