@@ -30,11 +30,11 @@ export function CountryInfo({ country }) {
                 </h1>
                 <div id="outer">
                     <div id="inner">
-                    <p className={styles.card}>capital city:<br/><br/>{country.capital}</p>
-                    <p className={styles.card}>language:<br/><br/>{country.language}</p>
-                    <p className={styles.card}>population:<br/><br/>{country.population}</p>
-                    <p className={styles.card}>currency:<br/><br/>{country.currency}</p>
-                    <p className={styles.card}>continent:<br/><br/>{country.continent}</p>
+                    <p className={styles.card}>Capital City:<br/><br/>{country.capital}</p>
+                    <p className={styles.card}>Language:<br/><br/>{country.language}</p>
+                    <p className={styles.card}>Population:<br/><br/>{country.population}</p>
+                    <p className={styles.card}>Currency:<br/><br/>{country.currency}</p>
+                    <p className={styles.card}>Continent:<br/><br/>{country.continent}</p>
                     </div>
                 </div>
             </main>
@@ -57,11 +57,11 @@ export function CountryInfo({ country }) {
                     <br/>
                 </h1>
                 <div className={styles.flex}>
-                    <p className={styles.card}>capital city:<br/><br/>{country.capital}</p>
-                    <p className={styles.card}>language:<br/><br/>{country.language}</p>
-                    <p className={styles.card}>population:<br/><br/>{country.population}</p>
-                    <p className={styles.card}>currency:<br/><br/>{country.currency}</p>
-                    <p className={styles.card}>continent:<br/><br/>{country.continent}</p>
+                    <p className={styles.card}>Capital City:<br/><br/>{country.capital}</p>
+                    <p className={styles.card}>Language:<br/><br/>{country.language}</p>
+                    <p className={styles.card}>Population:<br/><br/>{country.population}</p>
+                    <p className={styles.card}>Currency:<br/><br/>{country.currency}</p>
+                    <p className={styles.card}>Continent:<br/><br/>{country.continent}</p>
                 </div>
             </main>
             </div>
