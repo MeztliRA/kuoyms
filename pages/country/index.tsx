@@ -42,6 +42,9 @@ export default function Country() {
             <li><Link href="/country/spain"> 🇪🇸 Spain</Link></li>
             <br/>            
             <li><Link href="/country/united-kingdom"> 🇬🇧 United Kingdom</Link></li>
+            <br/>
+            <li><Link href="/country/uruguay"> 🇺🇾 Uruguay</Link></li>
+            <br/>
           </Twemoji>
         </ul>
         </main>
