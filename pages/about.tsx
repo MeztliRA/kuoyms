@@ -20,7 +20,7 @@ export default function about() {
                 </h4>
 
                 <div className={styles.flex}>
-                    <p>The emoji that this website use is from <a href="https://twemoji.twitter.com">twemoji</a></p>
+                    <p>The emoji that this website use is from <a href="https://twemoji.twitter.com" target="_blank" rel="noopener noreferrer">twemoji</a></p>
                 </div>
             </main>
         </div>
